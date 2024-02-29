@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Transfers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Football Transfers</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Latest Transfers</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search...">
+            <button onclick="search()">Search</button>
+        </div>
+    </header>
+    <section id="main-content">
+        <article class="transfer">
+            <img src="transfer1.jpg" alt="Transfer Image">
+            <h2>Player Name Transfers to New Club</h2>
+            <p>Details about the transfer...</p>
+            <div class="share-buttons">
+                <a href="#" class="social-button">Share on Twitter</a>
+                <a href="#" class="social-button">Share on Facebook</a>
+            </div>
+        </article>
+        <article class="transfer">
+            <img src="transfer2.jpg" alt="Transfer Image">
+            <h2>Another Player Name Moves to Another Club</h2>
+            <p>Details about the transfer...</p>
+            <div class="share-buttons">
+                <a href="#" class="social-button">Share on Twitter</a>
+                <a href="#" class="social-button">Share on Facebook</a>
+            </div>
+        </article>
+        <!-- Add more articles for additional transfers -->
+    </section>
+    <footer>
+        <p>&copy; 2024 Football Transfers. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function search() {
+            var input, filter, articles, transfer, title, i;
+            input = document.getElementById('searchInput');
+            filter = input.value.toUpperCase();
+            articles = document.querySelectorAll('.transfer');
+            
+            articles.forEach(function(transfer) {
+                title = transfer.querySelector('h2');
+                if (title.innerText.toUpperCase().indexOf(filter) > -1) {
+                    transfer.style.display = "";
+                } else {
+                    transfer.style.display = "none";
+                }
+            });
+        }
+    </script>
+</body>
+</html>
