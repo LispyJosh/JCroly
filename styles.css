@@ -1,0 +1,29 @@
+* {
+    text-decoration: none;    
+}
+.navbar {
+    background: #242323; 
+    font-family: Courier New; 
+    padding-right: 15px; 
+    padding-left: 15px;
+}
+.navdiv {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+.logo a {
+    font-size: 20px; 
+    font-weight: 600; 
+    color: white;
+}
+li {
+    list-style: none; 
+    display: inline-block;
+}
+li a {
+    color: #dddada; 
+    font-size: 18px; 
+    font-weight: bold; 
+    margin-right: 25px;
+}
