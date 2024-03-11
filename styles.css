@@ -1,29 +1,40 @@
 * {
-    text-decoration: none;    
+    text-decoration: none; /* Remove default text decoration */
 }
+
+/* Navigation bar styles */
 .navbar {
-    background: #242323; 
+    background: #242323; /* Background color */
     font-family: Courier New; 
     padding-right: 15px; 
-    padding-left: 15px;
+    padding-left: 15px; 
 }
+
+/* Navigation container styles */
 .navdiv {
-    display: flex; 
-    align-items: center; 
-    justify-content: space-between; 
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Vertically center content */
+    justify-content: space-between; /* Distribute content evenly */
 }
+
+/* Logo link styles */
 .logo a {
     font-size: 20px; 
-    font-weight: 600; 
-    color: white;
+    font-weight: 600;
+    color: white; 
 }
+
+/* List item styles */
 li {
-    list-style: none; 
-    display: inline-block;
+    list-style: none; /* Remove default list styling */
+    display: inline-block; 
 }
+
+/* Anchor (link) styles */
 li a {
     color: #dddada; 
     font-size: 18px; 
     font-weight: bold; 
-    margin-right: 25px;
+    margin-right: 25px; 
 }
+
