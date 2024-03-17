@@ -10,6 +10,10 @@
     padding-left: 15px; 
 }
 
+body {
+    background-color: #242323;
+}
+
 /* Navigation container styles */
 .navdiv {
     display: flex; /* Flexbox layout */
@@ -38,3 +42,22 @@ li a {
     margin-right: 25px; 
 }
 
+/* this is for my contact us section */
+.ct {
+    text-align: center;
+    color: #ff8400;
+    font-size: 40px;
+    font-family: Courier New; 
+    padding-top: 0px;
+}
+
+/* Logo for contact us link styles */
+.ctlogo a {
+    font-size: 20px; 
+    font-weight: 600;
+    color: white; 
+    place-content:left;
+    padding-top: 0px;
+    margin-top: 0px;
+    
+}
