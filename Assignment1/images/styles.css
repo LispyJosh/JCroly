@@ -52,12 +52,88 @@ li a {
 }
 
 /* Logo for contact us link styles */
+.ctlogo {
+    float: left; /* Align the logo to the left */
+    margin-left: 50px; /* Add some space between the logo and the text */
+    margin-right: 50px;
+    margin-bottom: 0px; !important
+    margin-top: 100px; 
+    
+}
+
 .ctlogo a {
     font-size: 20px; 
     font-weight: 600;
     color: white; 
-    place-content:left;
-    padding-top: 0px;
-    margin-top: 0px;
-    
+}
+
+/* contus us center text */
+.cuct {
+    font-size: 20px;
+    color: white;
+    font-family: Courier New; 
+    text-align: left; /* Center the text but I am aligning left*/
+    margin: 0 auto; /* Center horizontally */
+    margin-left: 200px;
+    float: left; /* Use float to enable alignment */
+    margin-right: 270px; /* Using this to fix the sub button placement, adjust this to move the sub button */
+}
+
+.sub {
+    font-size: 20px;
+    color: white;
+    font-family: Courier New; 
+    text-align: right; /* Align text to the right */
+    margin-right: 100px;
+
+}
+
+/*sub button stuff going here */
+.subscribe-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1000px;
+}
+
+input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 18px;
+    width: 250px;
+}
+
+.subscribe-button {
+    padding: 10px 20px;
+    background-color: #ff8400;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.subscribe-button:hover {
+    background-color: rgb(255, 98, 0);
+}
+
+
+footer {
+    background-color: #ffffff;
+    color: #7c7c7c;
+    padding: 50px;
+    text-align: center;
+    margin-top: 250px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
 }
