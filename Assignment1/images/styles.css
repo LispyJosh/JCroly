@@ -189,5 +189,13 @@ footer {
     color: white; 
 }
 
-
+.MOA {
+    text-align: center;
+    color: #ff8400;
+    font-size: 40px;
+    font-family: Courier New; 
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: white;
+}
 
