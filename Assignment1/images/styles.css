@@ -199,3 +199,12 @@ footer {
     background-color: white;
 }
 
+.FR {
+    text-align: center;
+    color: #ff8400;
+    font-size: 20px;
+    font-family: Courier New; 
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: white;
+}
