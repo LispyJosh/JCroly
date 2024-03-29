@@ -72,6 +72,12 @@ li a {
     margin-right: 25px; 
 }
 
+body {
+    font-family: Courier New, Courier, monospace; /* Your preferred font */
+    margin: 0;
+    padding: 0;
+}
+
 /* this is for my contact us section */
 .ct {
     text-align: center;
@@ -79,82 +85,57 @@ li a {
     font-size: 40px;
     font-family: Courier New; 
     padding-top: 0px;
-    width: 50%; /* Adjust the width of the contact text */
-    margin: 0 auto; /* Center the text horizontally */
-    margin-top: 5vh; /* Adjust top margin to align with logo */
+}
+
+.container {
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 20px;
 }
 
-/* Logo for contact us link styles */
-.ctlogo {
-    float: left; /* Align the logo to the left */
-    margin-left: 5%; /* Add some space between the logo and the text */
-    margin-right: 0%;
-    margin-bottom: 0;
-    margin-top: 5vh; /* Adjust margin top using vh units */
+.logo img {
+    max-width: 300px; /* Adjust the size of the logo */
+    height: auto;
 }
 
-.ctlogo a {
-    font-size: 20px; 
-    font-weight: 600;
-    color: white; 
-}
-
-.ctlogo img {
-    width: 35%; /* Set the width of the logo to adjust size of the logo */
-    height: auto; /* Let the height adjust automatically to maintain aspect ratio */
-}
-
-/* Contus us center text */
-.ct {
-    display: flex; /* Use flexbox layout */
-    align-items: center; /* Vertically center content */
-}
-
-.cuct {
-    flex: 1; /* Take up remaining space */
-    font-size: 20px;
+.content {
+    flex: 1;
+    text-align: left;
+    margin-left: 25%;
     color: white;
-    font-family: Courier New; 
-    text-align: left; /* Center the text */
-    margin-top: 5vh; /* Adjust top margin to align with logo */
+    font-size: 130%;
 }
 
-/*sub button stuff going here */
-.subscribe-section {
-    margin-left: auto; /* Push subscribe section to the right */
-    margin-right: 5%; /* Add some space between the text and the subscribe button */
-    margin-top: 5vh; /* Adjust top margin to align with logo */
+.text {
+    margin-bottom: 20px;
 }
 
-.sub {
-    font-size: 20px;
-    color: white;
-    font-family: Courier New; 
-    text-align: right; /* Align text to the right */
-    margin-right: 5%; /* Add some space between the text and the subscribe button */
+.email-link {
+    color: inherit; /* Inherit text color */
+    text-decoration: none; /* Remove underline */
 }
 
-input[type="email"] {
+.subscribe {
+    text-align: right;
+}
+
+.subscribe input[type="email"] {
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px 0 0 5px;
-    font-size: 18px;
-    width: 250px;
+    margin-right: 10px;
 }
 
-.subscribe-button {
+.subscribe button {
     padding: 10px 20px;
     background-color: #ff8400;
     color: white;
     border: none;
-    border-radius: 0 5px 5px 0;
-    font-size: 20px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-.subscribe-button:hover {
-    background-color: rgb(255, 98, 0);
+.subscribe button:hover {
+    background-color: #ff9900;
 }
 
 
